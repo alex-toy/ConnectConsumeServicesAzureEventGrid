@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventgrid", "Eventgrid\Eventgrid.csproj", "{A24463D8-089E-429B-B9CA-AEDA6B6AED32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureEventGrid", "AzureEventGrid\AzureEventGrid.csproj", "{A498BD9B-8830-4BE1-95E3-8DADE2719D71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24463D8-089E-429B-B9CA-AEDA6B6AED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24463D8-089E-429B-B9CA-AEDA6B6AED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24463D8-089E-429B-B9CA-AEDA6B6AED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24463D8-089E-429B-B9CA-AEDA6B6AED32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A498BD9B-8830-4BE1-95E3-8DADE2719D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A498BD9B-8830-4BE1-95E3-8DADE2719D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A498BD9B-8830-4BE1-95E3-8DADE2719D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A498BD9B-8830-4BE1-95E3-8DADE2719D71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {946FCC19-7C6C-4892-9D69-C599BCC1746C}
+	EndGlobalSection
+EndGlobal
