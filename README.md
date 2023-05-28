@@ -12,6 +12,9 @@
 - add an *Event Grid Subscription* on your *storage account*. For event types, choose blob created and blob deleted
 <img src="/pictures/event_grid3.png" title="event grid"  width="900">
 
+- upload a file to the storage account and see that the Azure Function has been executed
+<img src="/pictures/event_grid4.png" title="event grid"  width="900">
+
 - on the ngrok tool run
 ```
 ngrok.exe http -host-header=localhost 7071
