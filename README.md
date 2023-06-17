@@ -3,6 +3,20 @@
 **Azure Event Grid** is fast and reliable event routing service allowing developers to create real time applications and decouple their systems at ease. Thanks to event grid built in events you can quickly automate Azure subscription for all your operation needs.
 
 
+## Event Grid
+
+### Azure Functions
+
+- create HTTP azure function
+<img src="/pictures/az_function.png" title="azure function"  width="900">
+
+- create a storage account that subscribes to the azure event grid (on the *Events* section)
+<img src="/pictures/az_function2.png" title="azure function"  width="500">
+
+- on the function app, chech that the event has been triggered
+<img src="/pictures/az_function3.png" title="azure function"  width="900">
+
+
 ## Azure Portal
 
 - create project and publish
