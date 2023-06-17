@@ -14,6 +14,7 @@ namespace Eventgrid
         public static void Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
         {
             log.LogInformation(eventGridEvent.Data.ToString());
+            log.LogInformation(eventGridEvent.Subject.ToString());
         }
     }
 }

@@ -78,3 +78,22 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
  
 - see the filtering taking place : only the .png file has triggered the azure function
 <img src="/pictures/event_grid_filter3.png" title="event grid filter"  width="900">
+
+
+## Events at the Resource Group level
+
+- create an event subscription at the resource group level. Choose only the success events
+<img src="/pictures/event_rg.png" title="event resource group"  width="900">
+
+- now, any action on the resource group that ends up as a success will trigger the azure function
+<img src="/pictures/event_rg2.png" title="event resource group"  width="900">
+
+- add a filter on the subject
+<img src="/pictures/event_rg3.png" title="event resource group"  width="900">
+
+
+- and see the event on that subject
+<img src="/pictures/event_rg4.png" title="event resource group"  width="900">
+
+
+## HTTP endpoint
