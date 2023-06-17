@@ -110,3 +110,23 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
 ```
 Microsoft.Azure.EventGrid
 ```
+
+- run the local azure function. It is now the endpoint for azure event grid.
+
+
+## Custom Topics
+
+- create an event grid topic
+<img src="/pictures/custom_topic.png" title="custom topic"  width="900">
+
+- create a console app. Install packages
+```
+Azure.Messaging.EventGrid
+```
+
+- publish the azure function *HttpTriggerBis*
+
+- create an endpoint to the azure function
+<img src="/pictures/custom_topic2.png" title="custom topic"  width="900">
+
+- run the PublishEvents app. 
