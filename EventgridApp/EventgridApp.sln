@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eventgrid", "Eventgrid\Even
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureEventGrid", "AzureEventGrid\AzureEventGrid.csproj", "{A498BD9B-8830-4BE1-95E3-8DADE2719D71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventGridTrigger", "EventGridTrigger\EventGridTrigger.csproj", "{C27040DE-815D-4F4F-AEA6-2C57CB84C8FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGridTrigger", "EventGridTrigger\EventGridTrigger.csproj", "{C27040DE-815D-4F4F-AEA6-2C57CB84C8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpTrigger", "HttpTrigger\HttpTrigger.csproj", "{5A251E2F-E8F6-485B-9B8C-A4E48AA9FCCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C27040DE-815D-4F4F-AEA6-2C57CB84C8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C27040DE-815D-4F4F-AEA6-2C57CB84C8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C27040DE-815D-4F4F-AEA6-2C57CB84C8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A251E2F-E8F6-485B-9B8C-A4E48AA9FCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A251E2F-E8F6-485B-9B8C-A4E48AA9FCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A251E2F-E8F6-485B-9B8C-A4E48AA9FCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A251E2F-E8F6-485B-9B8C-A4E48AA9FCCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

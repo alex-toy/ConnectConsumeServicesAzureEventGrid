@@ -91,9 +91,22 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
 - add a filter on the subject
 <img src="/pictures/event_rg3.png" title="event resource group"  width="900">
 
-
 - and see the event on that subject
 <img src="/pictures/event_rg4.png" title="event resource group"  width="900">
 
 
 ## HTTP endpoint
+
+- create an azure function based on HTTP trigger
+<img src="/pictures/http_endpoint.png" title="http endpoint"  width="900">
+
+- on the storage account, create a subscription 
+<img src="/pictures/http_endpoint2.png" title="http endpoint"  width="900">
+
+- this results in a fail, because we first need to perform a hand shake
+<img src="/pictures/http_endpoint3.png" title="http endpoint"  width="900">
+
+- install packages
+```
+Microsoft.Azure.EventGrid
+```
