@@ -64,4 +64,17 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
 
 - in the storage account, upload a file and see the result in the queue
 <img src="/pictures/queue2.png" title="queue handler"  width="900">
+
+
+## Event Grid Filters
+
+- create an event subscription for the azure function
+
+- add a filer on file extension
+<img src="/pictures/event_grid_filter.png" title="event grid filter"  width="900">
  
+- on azure storage, upload both .png and .txt files and see the filtering taking place
+<img src="/pictures/event_grid_filter2.png" title="event grid filter"  width="900">
+ 
+- see the filtering taking place : only the .png file has triggered the azure function
+<img src="/pictures/event_grid_filter3.png" title="event grid filter"  width="900">
