@@ -13,7 +13,7 @@
 - create a storage account that subscribes to the azure event grid (on the *Events* section)
 <img src="/pictures/az_function2.png" title="azure function"  width="500">
 
-- on the function app, chech that the event has been triggered
+- on the function app, create and delete blobs, then chech that the event has been triggered
 <img src="/pictures/az_function3.png" title="azure function"  width="900">
 
 
@@ -49,13 +49,9 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
 <img src="/pictures/web_hook3.png" title="web hook"  width="900">
 
 
+## Event Grid Schema
 
-## Logic App
-
-- create 
-<img src="/pictures/logic_app.png" title="logic app"  width="500">
-
-- go to the *Logic App Designer* 
-<img src="/pictures/logic_app2.png" title="logic app"  width="500">
+- publish the azure function and subscribe the storage account to it. Then delete and upload blobs and see the result.
+<img src="/pictures/event_grid1.png" title="event grid"  width="500">
 
  
