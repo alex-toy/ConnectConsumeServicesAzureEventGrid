@@ -52,6 +52,16 @@ https://a459-93-15-253-30.eu.ngrok.io/runtime/webhooks/EventGrid?functionName=Ge
 ## Event Grid Schema
 
 - publish the azure function and subscribe the storage account to it. Then delete and upload blobs and see the result.
-<img src="/pictures/event_grid1.png" title="event grid"  width="500">
+<img src="/pictures/event_grid1.png" title="event grid"  width="900">
 
+
+## Storage Queue Handler
+
+- create a queue
+
+- create an event subscription
+<img src="/pictures/queue.png" title="queue handler"  width="900">
+
+- in the storage account, upload a file and see the result in the queue
+<img src="/pictures/queue2.png" title="queue handler"  width="900">
  
